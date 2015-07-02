@@ -33,7 +33,7 @@ class A
   end
 end
 
-Object.constants[:A] = {
+Class.constants[:A] = {
   methods:            {},
   superclass:         Object,
   constants:          {},
@@ -41,4 +41,4 @@ Object.constants[:A] = {
   class:              Class
 }
 
-Object.constants[:A][:methods][:b] = (code)
+Class.constants[:A][:methods][:b] = (code)
